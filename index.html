@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="css/style.css">
+  
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body> 
+
+  <main>
+    <!-- container class to center the content on the page -->
+    <div class="container">
+      <div class="card">
+
+        <div class="card__result">
+          <h3 class="result__title">Your Result</h3>
+          <div class="result__score"><span class="total-score">76</span>  of 100</div>
+          <p class="result__grade">Great</p>
+          <p class="result__info">You scored higher than 65% of the people who have taken these tests.</p>
+        </div> <!-- /card__result -->
+
+        <div class="card__summary">
+          <h3 class="summary__title">Summary</h3>
+          <div class="summary__scores">
+            
+            <div class="score score--red">
+              <div class="score__category">
+                <img src="assets/images/icon-reaction.svg" alt="">
+                <p>Reaction</p>
+              </div>
+              <p><span>80</span> / 100</p>
+            </div>
+
+            <div class="score score--yellow">
+              <div class="score__category">
+                <img src="assets/images/icon-memory.svg" alt="">
+                <p>Memory</p>
+              </div>
+              <p><span>92</span> / 100</p>
+            </div>
+
+            <div class="score score--teal">
+              <div class="score__category">
+                <img src="assets/images/icon-verbal.svg" alt="">
+                <p>Verbal</p>
+              </div>
+              <p><span>61</span> / 100</p>
+            </div>
+
+            <div class="score score--blue">
+              <div class="score__category">
+                <img src="assets/images/icon-visual.svg" alt="">
+                <p>Visual</p>
+              </div>
+              <p><span>72</span> / 100</p>
+            </div>
+
+          </div> <!-- / summary__scores -->
+          <a href="#" class="btn">Continue</a>
+        </div> <!-- /card__result -->
+
+      </div> <!-- / card -->
+    </div> <!-- / conatiner -->
+  </main>
+  
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/Mohammedabbas7">Mohammed Abbas</a>.
+    </div>
+  </footer>
+
+</body>
+</html>
